@@ -159,7 +159,7 @@ h2{
     
 }
 
-
+/* reverse list -> source https://www.w3schools.com/css/css_counters.asp*/
 ul.reverse{
     list-style: none;
     counter-reset: item 7;
