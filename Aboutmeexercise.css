@@ -1,0 +1,187 @@
+/*body text*/
+body{
+    font-size: 1.5 rem;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: pink
+}
+
+/*title of website text*/
+h1{
+    text-shadow: 1px 1px 1px yellow,
+                 2px 2px 1px pink;
+    text-align: center;
+    font-style: italic;
+    background-color: palevioletred; 
+}
+
+/*title of website text and sentince bio*/
+h1+p {
+    font-weight: bolder;
+}
+
+/*course header and Contact Info*/
+h2{
+    color: orangered; 
+    text-shadow: 2px 2px 1px pink,
+                 2px 2px 1px yellow;              
+    text-align: center;
+    
+}
+
+/*I am taking 5 courses*/
+h2 + p{
+    text-align: center;
+
+}
+
+
+/*Movie/show list header text*/
+h3{
+    color: orangered; 
+    text-shadow: 2px 2px 1px pink,
+                 2px 2px 1px yellow;
+    font-size: 20px;               
+    text-align: center;
+}
+
+/*Favorite food = pasta*/
+h4{
+    color: orangered; 
+    text-shadow: 2px 2px 1px pink,
+                 2px 2px 1px yellow;
+    font-size: 20px;             
+    text-align: center;
+
+}
+
+/*Mood headers*/
+h5{
+    color: orangered; 
+    text-shadow: 2px 2px 1px pink,
+                 2px 2px 1px yellow;
+    font-size: 20px;             
+    text-align: center;
+}
+
+/*Classmate fact header*/
+h6{
+    color: orangered; 
+    text-shadow: 2px 2px 1px pink,
+                 2px 2px 1px yellow;
+    font-size: 20px;             
+    text-align: center;
+}
+
+/*aside format*/
+aside{
+    width: 30%;
+    padding-left: 15 px;
+    margin-left: 15 px;
+    float: right;
+    background-color: yellow;
+    image-orientation: center;
+}
+
+/*text*/
+p{
+text-align: center;
+   
+}
+
+/*line format*/
+hr {
+    height: 2px;
+    background-color: black;
+    border: none;
+}
+    
+/*text in list*/   
+li {
+    font-style: italic;
+}
+
+/*no underline for links*/
+a:any-link {
+  text-decoration: none;
+}
+
+/*underline when hovering*/
+a:hover {
+  text-decoration: underline;
+}
+
+/*drop cap*/
+p:first-letter {
+/*color*/    
+  color: black;
+/*space in box for letter*/  
+  padding: 0 .5rem;
+/*how close initial letter is to other letters*/  
+  margin: 0 .2rem 0 0;
+/*width of border box*/  
+  border: 2.5px solid;
+/*how circular border is*/  
+  border-radius: 1px;
+/*Type of Font, need quotes more than 1 word*/  
+  font-family: "IBM Plex Mono";
+
+/*Needs to be 1.5 times bigger than normal text*/  
+  font-size: 1.5rem;
+/*Closeness to prior line*/ 
+  line-height: 0.5;
+
+}
+
+
+/*definition list*/ 
+dl{
+    line-height:2;
+    font-style:normal;
+    text-indent: inherit;
+    font-size: 12px;
+    color: black;
+}
+
+li { 
+    color: darkorange; 
+}
+
+/* Alternating element color in lists*/
+li:nth-child(odd) { 
+    color: deeppink; 
+}
+
+
+h2{
+    font-style: normal;
+    line-height: 1.5;
+    text-align: center;
+    
+}
+
+
+ul.reverse{
+    list-style: none;
+    counter-reset: item 7;
+    margin: 1;
+    padding: 3;   
+}
+
+ul.reverse>li{
+    counter-increment: item -1;
+
+      
+}
+
+
+ul.reverse>li:before{
+    content:counter(item) ".";
+}
+
+
+    
+}
+   
+
+
+
